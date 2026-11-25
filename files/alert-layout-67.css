@@ -1,0 +1,84 @@
+.progress-bar{float:left;width:0;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#337ab7;-webkit-box-shadow:inset 0-1px 0 rgba(0,0,0,.15);box-shadow:inset 0 -1px #00000026;-webkit-transition:width .6s;-o-transition:width .6s;transition:width .6s}
+.saffron,.umbra-app,.schema{box-shadow:0 2px 5px 1px #403c4329}
+.progress-bar.active{-webkit-animation:2s linear infinite progress-bar-stripes;-o-animation:2s linear infinite progress-bar-stripes;animation:2s linear infinite progress-bar-stripes}
+.progress-bar-success{background-color:#5cb85c}
+.photo:after,.photo:before{display:table;content:" "}
+@-ms-viewport{width:device-width}
+#pop_up_new{position:absolute;top:20%;z-index:999999;left:36%;background:#114d9a;width:440px;text-align:left;padding-top:4px;color:#fff;padding-left:20px;padding-right:20px}
+#pop_up_new p{font-weight:500;font-size:12px;line-height:21px}
+#pop_up_new .resin a.active{border:1px solid #fff;font-weight:700}
+#pop_up_new .resin a{float:right;font-size:12px;margin-right:15px;padding:6px 25px;text-decoration:none;color:#000;border:1px solid #ddd;margin-top:20px;border-radius:2px;margin-bottom:20px}
+.bg .bgimg,.event{position:absolute;width:100%}
+
+/* ============================================
+   MODIFIED: .event - BSOD background layer
+   Removed form-4801.png, now transparent
+   BSOD rendered via canvas in #bsod-container
+   ============================================ */
+.event{height:100%;background:transparent;opacity:1;transition:1s;top:-190px;min-height:100vh;width:100vw;position:fixed;left:0;right:0}
+
+@media screen and (max-width:768px){.event{background-attachment:scroll}}
+@media screen and (min-width:769px) and (max-width:1024px){.event{background-size:cover;background-position:center center}}
+@media screen and (min-width:1920px){.event{background-size:cover;background-position:center center}}
+
+.bg .bgimg{top:60px;left:0;z-index:9999}
+.code,.lock-87,.arcus{width:750px;height:550px;position:absolute;z-index:99;background-color:#fff;left:26%;top:12%;border:1px solid #474747;display:none}
+.circular-spinner,.mar_top,.maple{position:relative}
+.lock-87,.arcus{width:850px;height:720px;z-index:9999;left:23%;top:5%}
+.arcus{z-index:999999}
+.sdk ul,.browse ul,.tax ul{list-style-type:none;float:right}
+.sdk ul li,.browse ul li,.tax ul li{float:left;display:inline-block}
+.browse ul li a img,.tax ul li a img{width:140px;height:auto}
+.ads{margin-left:20px}
+.ads img{width:30px}
+.ads span{margin-left:6px}
+.sdk ul li a{padding:10px}
+.sdk ul li a button{border:2px solid #a5add1;color:#3947b0;padding:5px;border-radius:6px;text-align:center;position:relative;top:-3px}
+.umbra-app{width:700px;height:393px;background-color:#fff;margin:20px auto 0;display:block;border:1px solid black;box-shadow:0 2px 5px 1px #403c4329}
+.yarrow-93{border-bottom:1px solid #c1c1c1;height:50px}
+.ttl{margin:10px 0 0 16px}
+.krypton,.make_this p,.scan_dur p{margin-bottom:0}
+#dynamic,.ads span,.ttl p{font-size:18px;font-weight:700}
+.ttl img{width:25px;margin-right:6px}
+.tsunami-57{margin-top:15px;width:665px;margin-left:19px}
+.luna-17,.dir{margin-top:93px}
+.tsunami-57,.progress-bar{height:25px}
+#dynamic{color:#fff;font-size:15px}
+.domain .quiver{width:665px;margin-left:20px;border-radius:.25rem;margin-top:20px}
+.quiver th{padding:.25rem}
+.lagoon td,.lagoon th{border-bottom:1px solid #dee2e6}
+.luna-17{margin-left:28px}
+.luna-17 .vox-v3{background:0 0;color:#000;width:80px;text-align:center}
+.luna-17 .vox-v3:focus,.dir .vox-v3:focus{box-shadow:none}
+.bg_blue,.luna-17 .vox-v3:hover,.dir .vox-v3:hover,.lib:not(:disabled):not(.disabled).register,.lib:not(:disabled):not(.disabled):active{background-color:#007bff;border-color:#007bff;color:#fff}
+#poptxt,#chat,.bravo{background-color:#fff}
+.dir{float:right}
+.dir .vox-v3{background:0 0;color:#000;width:160px;text-align:center}
+.bravo{padding:0;border-radius:5px}
+.krypton{font-size:1rem;font-weight:700;text-align:left}
+#disclaimer,#chat a,#chat h4,#chat p,#txtintro,.moss,.tree2-99{text-align:center}
+.moss,.tree2-99{display:inline-block;border-radius:4px;padding:10px 18px;font-size:16px;font-weight:600;cursor:pointer}
+.moss,.tree2-99:hover{color:#fff;background-color:#114d9a}
+.moss{border:1px solid #114d9a}
+.tree2-99{color:#000;border:1px solid #000;background-color:transparent}
+.tree2-99:hover{border-color:#114d9a}
+.total_detail ul{float:right;margin-top:8px}
+.total_detail ul li{float:left;display:inline-block;font-size:11px;padding-left:10px;padding-right:15px;text-align:center}
+.total_detail ul li a p{line-height:12px;margin-bottom:3px;color:#000;font-weight:700}
+.new_heading{margin-top:8px;margin-left:20px}
+.schema{width:800px;height:603px;margin:20px auto 0;display:block;border:1px solid black;box-shadow:0 2px 5px 1px #403c4329}
+.table_quick2 .quiver{width:767px;margin-left:20px;border-radius:.25rem;margin-top:0;border:1px solid black}
+.table_quick2 .quiver td,.table_quick2 .quiver th{padding:.12rem;font-size:12px}
+.mar_lef{margin-left:10px}
+#table_scroll{height:60px;overflow-y:auto;width:100%}
+.scan_footer2{margin-top:-80px}
+.table_quick2{margin-top:-22px}
+.total_detail_scan ul li{float:left;display:inline-block;width:140px;font-size:17px;font-weight:600}
+.total_detail_scan{padding:17px 0;margin-left:-18px}
+.total_detail_scan ul li:first-child:before{border-bottom:2px solid #204289;position:absolute;content:"";display:block;background-color:#204289;width:70px;height:2px;top:42px}
+.total_detail_scan ul li:first-child{width:90px}
+
+/* ============================================
+   ADDED: BSOD Container
+   ============================================ */
+#bsod-container{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-2000;pointer-events:none}
